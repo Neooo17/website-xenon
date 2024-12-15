@@ -256,6 +256,11 @@ section {
   color: #6dc9ff;
   opacity: 0.9;
 }
+.para-center{
+  font-size: 1.3rem;
+  color: #363636;
+  font-weight: 500;
+}
 
 .grid {
   display: grid;
@@ -442,7 +447,6 @@ img {
   height: auto; /* Maintain aspect ratio */
   border-radius: 20px; /* Rounded corners */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-  /* Add vertical spacing */
   display: block; /* Center the image */
   transition: transform 0.3s ease; /* Smooth scaling on hover */
 }
