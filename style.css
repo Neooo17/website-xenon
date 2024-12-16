@@ -154,6 +154,12 @@ nav h1{
   opacity: 0.2;
 }
 
+@media (max-width: 768px) {
+  .other{
+    margin-top: auto;
+  }
+}
+
 section {
   display: flex;
   align-items: center;
