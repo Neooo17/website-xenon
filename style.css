@@ -496,6 +496,9 @@ h2 {
   opacity: 1; /* Ensure the heading is fully visible */
   display: block; /* Ensure the heading is displayed */
 }
+.text-5xl {
+  padding-bottom: 1.7rem;
+}
 @media (max-width: 986px){
   .flex-container{
     flex-direction: column;
