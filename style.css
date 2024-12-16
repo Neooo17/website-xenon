@@ -99,6 +99,7 @@ nav h1{
   height: 100%;
   overflow: hidden;
   z-index: -1;
+  pointer-events: none;
 }
 
 .bubble {
@@ -116,8 +117,10 @@ nav h1{
     );
   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5),
     0 4px 8px rgba(0, 0, 0, 0.3);
-  opacity: 0.1s;
+  opacity: 0;
   mix-blend-mode: screen;
+  transform: translate(0, 0);
+  will-change: transform, opacity;
 }
 
 @keyframes float {

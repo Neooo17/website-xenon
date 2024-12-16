@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     const bubbleContainer = document.querySelector('.bubble-container')
-    const maxBubbles = 30
+    const maxBubbles = 15
 
     function createBubble() {
         const bubble = document.createElement('div')
