@@ -78,6 +78,19 @@ nav h1{
   color: #09B6A2;
 }
 
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img{
+  width: 40px;
+  margin: 0 !important;
+}
+
+.other{
+  margin-top: 7rem;
+}
 .bubble-container {
   position: fixed;
   top: 0;
