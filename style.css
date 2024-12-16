@@ -457,7 +457,6 @@ img:hover {
   display: flex; /* Enable flexbox */
   justify-content: space-between; /* Space between items horizontally */
   align-items: center; /* Vertically center items */
-  flex-wrapm: wrap; /* Allow wrapping on smaller screens */
   margin: 20px 0; /* Add vertical spacing */
 }
 
