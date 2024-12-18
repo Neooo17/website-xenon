@@ -767,9 +767,9 @@ h2 {
 
 .primary-navigation1{
   position: fixed;
-  top: 80px;
+  top: 64px;
   width: 82%;
-  height: 60vh;
+  height: 70vh;
   display: none;
   flex-direction: column;
   background-color: #20121afa;
@@ -780,7 +780,7 @@ h2 {
   z-index: 2000;
   justify-content: flex-start;
   align-items: center;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
 }
 
 /* .menubtn{
