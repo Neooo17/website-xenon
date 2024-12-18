@@ -386,3 +386,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+// var showSidebar =  document.querySelector('.showSidebar')
+// showSidebar.addEventListener('click', () =>{
+//     document.querySelector('.primary-navigation1').style.display = 'flex';
+// })
+
+// var hideSidebar = document.querySelector('.hideSidebar')
+// hideSidebar.addEventListener('click', () =>{
+//     document.querySelector('.primary-navigation1').style.display = 'none';
+// })
+
+var showSidebar = document.querySelector('.showSidebar');
+var hideSidebar = document.querySelector('.hideSidebar');
+var navigation = document.querySelector('.primary-navigation1');
+var navToggle = document.querySelector('.nav-toggle');
+
+showSidebar.addEventListener('click', () => {
+    navigation.style.display = 'flex';
+    navToggle.classList.add('sidebar-active');
+});
+
+hideSidebar.addEventListener('click', () => {
+    navigation.style.display = 'none';
+    navToggle.classList.remove('sidebar-active');
+});
+
