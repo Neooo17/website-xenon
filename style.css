@@ -267,8 +267,8 @@ section {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  background: linear-gradient(to right, #4a3b9a, #6dc9ff);
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(to right, #4a3b9a, #6dc9ff);
+  -webkit-text-fill-color: transparent; */
   text-shadow: 0 0 30px rgba(109, 201, 255, 0.2);
   opacity: 1 !important;
   transform: none !important;
