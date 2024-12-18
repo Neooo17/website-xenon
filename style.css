@@ -158,6 +158,12 @@ nav h1{
   .other{
     margin-top: auto;
   }
+  nav h1{
+    font-size: 1.3rem;
+  }
+  .logo img{
+    width: 30px;
+  }
 }
 
 section {
