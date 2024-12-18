@@ -164,6 +164,12 @@ nav h1{
   .logo img{
     width: 30px;
   }
+  nav{
+    padding-right: 2rem;
+  }
+  .connect{
+    right: 75px
+  }
 }
 
 section {
