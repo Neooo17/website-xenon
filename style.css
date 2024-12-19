@@ -168,7 +168,7 @@ nav h1{
     padding-right: 2rem;
   }
   .connect{
-    right: 75px
+    right: 77px
   }
 }
 
@@ -789,6 +789,8 @@ h2 {
 
 .nav-toggle {
   position: relative;
+  background-color: #09B6A2;
+  border-radius: 5px;
 }
 
 .showSidebar {
